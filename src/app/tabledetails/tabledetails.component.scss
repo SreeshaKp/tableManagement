@@ -1,0 +1,24 @@
+.table-detail {
+    display: flex;               
+    flex-direction: column;     
+    align-items: center;       
+    justify-content: center;     
+    height: 100vh;             
+    text-align: center;        
+  }
+  
+  .seats-container {
+    display: flex;             
+    justify-content: center;   
+    flex-wrap: wrap;           
+  }
+  
+  .seat {
+    margin: 5px;              
+    padding: 10px;           
+    border: 1px solid #000;   
+    border-radius: 5px;        
+  }
+  .table-type{
+    font-size: 14px;
+  }

@@ -1,0 +1,309 @@
+nav {
+    background-color: #0c21d6;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 15px;
+    position: relative;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color:blue;
+    padding: 0.5rem;
+  }
+  
+  .dropdown {
+    display: none; 
+    position: absolute; 
+    background-color: #444;
+    padding: 0;
+  }
+  
+  li:hover .dropdown {
+    display: block; 
+  }
+  
+  .dropdown li {
+    margin: 0;
+  }
+  
+  .dropdown a {
+    padding: 0.5rem 1rem;
+  }
+  
+  .dropdown a:hover {
+    background-color: #666; 
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center; 
+    margin-right: 1%;
+    margin-bottom: 14px;
+  }
+  
+  input[type="text"] {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px; 
+    margin-right: 5px;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button i {
+    font-size: 1.2rem; 
+  }
+  .image-container {
+    position: relative; /* Establish positioning context */
+    width: 100%; /* Full width of the parent container */
+    overflow: hidden; /* Prevent overflow if needed */
+  }
+  
+  .nav-image {
+    width: 100%; /* Make the image take full width of the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 41%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 78px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 800;
+    width: 759px;
+
+  }
+  .overlay-des {
+    position: absolute;
+    top: 55%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    width: 413px;
+
+  }
+  .explore-cls{
+    color: #1616eb;
+    font-size: xxx-large;
+    width: 43%;
+    text-align: -webkit-center;
+    font-weight: 700;
+  }
+
+
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.card {
+    background-color: white; /* Card background color */
+    border: 1px solid #ddd; /* Border for the card */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Padding inside the card */
+    text-align: center; /* Center align content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    flex: 1; /* Equal width for each card */
+    margin: 0 10px; /* Space between cards */
+}
+
+.nav-image {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional rounded corners for images */
+}
+
+.over-sky{
+  position: absolute;
+    color: white;
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    width: 413px;
+    transform: translate(160%, -773%);
+    font-weight: 700;
+}
+.sky-des{
+  position: absolute;
+  color: white;
+  font-size: 17px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 389px;
+  transform: translate(159%, -960%);
+  text-align: -webkit-center;
+}
+
+
+.card-container-2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  transform: translate(21%, -59%);
+  width: 66%;
+}
+
+.card2 {
+  background-color: white; /* Card background color */
+  border: 1px solid #ddd; /* Border for the card */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the card */
+  text-align: left; /* Left align content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  flex: 1; /* Equal width for each card */
+  margin: 0 10px; /* Space between cards */
+}
+
+.card2 h3 {
+  margin-top: 0; 
+  color: #4e4de5;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card2 p {
+  margin: 10px 0 0;
+  font-size: 15px;
+  color: grey;
+}
+
+.learn-more {
+  display: inline-block; /* Make it a block element */
+  margin-top: 15px; /* Space above the link */
+  // padding: 10px 15px; /* Padding for the link */
+  color: blue; /* Text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.learn-more:hover {
+  background-color: white !important;
+}
+.serve-image{
+  width: 50%;
+}
+.over-footer{
+  position: absolute;
+  color: white;
+  font-size: 48px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 576px;
+  transform: translate(87%, -701%);
+  font-weight: 700;
+}
+.footer-des{
+  position: absolute;
+  color: white;
+  font-size: 17px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 452px;
+  transform: translate(125%, -861%);
+  text-align: -webkit-center;
+}
+
+.search-container2 {
+  display: flex;
+  justify-content: center; /* Center the search bar */
+  margin: 20px; /* Margin around the search bar */
+  transform: translate(1%, -830%);
+}
+
+.search-input {
+  padding: 10px; /* Padding inside the input */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 5px 0 0 5px; /* Rounded corners on left */
+  width: 300px; /* Width of the search input */
+}
+
+.search-button {
+  padding: 10px 15px; /* Padding for the button */
+  background-color: #007BFF; /* Button background color */
+  color: white; /* Text color */
+  border: none; /* Remove default border */
+  border-radius: 0 5px 5px 0; /* Rounded corners on right */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.search-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  /* background-color: #f8f9fa; */
+  /* border-top: 1px solid #ddd; */
+  width: 48%;
+  float: right;
+}
+
+.footer-section {
+  flex: 1; /* Equal width for each section */
+  margin: 0 10px; /* Margin between sections */
+}
+
+.footer-section h4 {
+  margin-bottom: 10px; /* Space below heading */
+}
+
+.footer-section p, .footer-section ul {
+  margin: 5px 0; /* Space between paragraphs and list items */
+}
+
+.footer-section ul {
+  list-style: none; /* Remove default list style */
+  padding: 0; /* Remove padding */
+}
+
+.footer-section a {
+  text-decoration: none; /* Remove underline from links */
+  color: #007BFF; /* Link color */
+}
+
+.footer-section a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+.copyright{
+  background-color: black;
+  color: white;
+  margin-top: 13%;
+  text-align: -webkit-center;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
