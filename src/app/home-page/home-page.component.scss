@@ -75,14 +75,14 @@ nav {
     font-size: 1.2rem; 
   }
   .image-container {
-    position: relative; /* Establish positioning context */
-    width: 100%; /* Full width of the parent container */
-    overflow: hidden; /* Prevent overflow if needed */
+    position: relative; 
+    width: 100%;
+    overflow: hidden;
   }
   
   .nav-image {
-    width: 100%; /* Make the image take full width of the container */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto;
   }
   
   .overlay-text {
@@ -126,20 +126,20 @@ nav {
 }
 
 .card {
-    background-color: white; /* Card background color */
-    border: 1px solid #ddd; /* Border for the card */
-    border-radius: 8px; /* Rounded corners */
-    padding: 10px; /* Padding inside the card */
-    text-align: center; /* Center align content */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
-    flex: 1; /* Equal width for each card */
-    margin: 0 10px; /* Space between cards */
+    background-color: white; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 10px;
+    text-align: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    flex: 1; 
+    margin: 0 10px; 
 }
 
 .nav-image {
-    max-width: 100%; /* Make image responsive */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 8px; /* Optional rounded corners for images */
+    max-width: 100%;
+    height: auto; 
+    border-radius: 8px; 
 }
 
 .over-sky{
@@ -173,14 +173,14 @@ nav {
 }
 
 .card2 {
-  background-color: white; /* Card background color */
-  border: 1px solid #ddd; /* Border for the card */
-  border-radius: 8px; /* Rounded corners */
-  padding: 20px; /* Padding inside the card */
-  text-align: left; /* Left align content */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
-  flex: 1; /* Equal width for each card */
-  margin: 0 10px; /* Space between cards */
+  background-color: white;
+  border: 1px solid #ddd; 
+  border-radius: 8px;
+  padding: 20px; 
+  text-align: left; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  flex: 1; 
+  margin: 0 10px; 
 }
 
 .card2 h3 {
@@ -197,12 +197,11 @@ nav {
 }
 
 .learn-more {
-  display: inline-block; /* Make it a block element */
-  margin-top: 15px; /* Space above the link */
-  // padding: 10px 15px; /* Padding for the link */
-  color: blue; /* Text color */
-  text-decoration: none; /* Remove underline */
-  border-radius: 5px; /* Rounded corners */
+  display: inline-block; 
+  margin-top: 15px; 
+  color: blue; 
+  text-decoration: none; 
+  border-radius: 5px;
 }
 
 .learn-more:hover {
@@ -234,30 +233,30 @@ nav {
 
 .search-container2 {
   display: flex;
-  justify-content: center; /* Center the search bar */
-  margin: 20px; /* Margin around the search bar */
+  justify-content: center;
+  margin: 20px;
   transform: translate(1%, -830%);
 }
 
 .search-input {
-  padding: 10px; /* Padding inside the input */
-  border: 1px solid #ccc; /* Border color */
-  border-radius: 5px 0 0 5px; /* Rounded corners on left */
-  width: 300px; /* Width of the search input */
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px 0 0 5px;
+  width: 300px; 
 }
 
 .search-button {
-  padding: 10px 15px; /* Padding for the button */
-  background-color: #007BFF; /* Button background color */
-  color: white; /* Text color */
-  border: none; /* Remove default border */
-  border-radius: 0 5px 5px 0; /* Rounded corners on right */
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: background-color 0.3s; /* Smooth hover effect */
+  padding: 10px 15px; 
+  background-color: #007BFF; 
+  color: white; 
+  border: none; 
+  border-radius: 0 5px 5px 0;
+  cursor: pointer; 
+  transition: background-color 0.3s; 
 }
 
 .search-button:hover {
-  background-color: #0056b3; /* Darker shade on hover */
+  background-color: #0056b3; 
 }
 
 
@@ -267,37 +266,35 @@ nav {
   justify-content: space-between;
   align-items: flex-start;
   padding: 20px;
-  /* background-color: #f8f9fa; */
-  /* border-top: 1px solid #ddd; */
   width: 48%;
   float: right;
 }
 
 .footer-section {
-  flex: 1; /* Equal width for each section */
-  margin: 0 10px; /* Margin between sections */
+  flex: 1; 
+  margin: 0 10px;
 }
 
 .footer-section h4 {
-  margin-bottom: 10px; /* Space below heading */
+  margin-bottom: 10px; 
 }
 
 .footer-section p, .footer-section ul {
-  margin: 5px 0; /* Space between paragraphs and list items */
+  margin: 5px 0;
 }
 
 .footer-section ul {
-  list-style: none; /* Remove default list style */
-  padding: 0; /* Remove padding */
+  list-style: none; 
+  padding: 0; 
 }
 
 .footer-section a {
-  text-decoration: none; /* Remove underline from links */
-  color: #007BFF; /* Link color */
+  text-decoration: none; 
+  color: #007BFF;
 }
 
 .footer-section a:hover {
-  text-decoration: underline; /* Underline on hover */
+  text-decoration: underline; 
 }
 .copyright{
   background-color: black;
@@ -306,4 +303,35 @@ nav {
   text-align: -webkit-center;
   padding-bottom: 16px;
   padding-top: 16px;
+}
+
+
+
+.skyview-cls {
+  position: relative;
+}
+
+.nav-image {
+  width: 100%; 
+  height: auto; 
+}
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px;
+  z-index: 10;
+}
+
+#prev-button {
+  left: 10px;
+}
+
+#next-button {
+  right: 10px;
 }
